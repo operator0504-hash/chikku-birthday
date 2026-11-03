@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#090608" />
+  <meta name="description" content="A birthday surprise for Chikku." />
+  <title>For Chikku, with love</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="intro-locked">
+  <section class="intro-screen" id="intro-screen" aria-labelledby="intro-title">
+    <div class="intro-aura intro-aura-one" aria-hidden="true"></div>
+    <div class="intro-aura intro-aura-two" aria-hidden="true"></div>
+    <div class="intro-particles" aria-hidden="true">
+      <span class="intro-heart intro-heart-one">♥</span><span class="intro-heart intro-heart-two">♥</span><span class="intro-heart intro-heart-three">♥</span>
+      <span class="intro-petal intro-petal-one"></span><span class="intro-petal intro-petal-two"></span><span class="intro-petal intro-petal-three"></span>
+      <span class="intro-star intro-star-one">✦</span><span class="intro-star intro-star-two">✧</span><span class="intro-star intro-star-three">·</span>
+    </div>
+    <div class="intro-frame">
+      <p class="intro-overline"><span></span> A little something from my heart <span></span></p>
+      <h1 id="intro-title">Merriii<br /><em>Chiikiii</em><span class="intro-title-heart" aria-hidden="true">♥</span></h1>
+      <p class="intro-lead">I've Made Something Special Just For You...</p>
+      <p class="intro-copy">A little surprise, made with all my love.<br />Take a moment and open it.</p>
+      <button class="intro-button" id="intro-button" type="button"><span>Click Here</span><span aria-hidden="true">♥</span></button>
+    </div>
+    <p class="intro-footer">Made with all my heart</p>
+  </section>
+  <main class="welcome" aria-labelledby="birthday-title">
+    <div class="atmosphere" aria-hidden="true">
+      <div class="aurora aurora-one"></div>
+      <div class="aurora aurora-two"></div>
+      <div class="grain"></div>
+      <div class="particle-field" id="particle-field"></div>
+      <div class="heart-field" id="heart-field"></div>
+    </div>
+
+    <nav class="topbar" aria-label="Page details">
+      <span class="topbar-mark">For my favourite person</span>
+      <span class="topbar-date">A little love note <span class="topbar-dot"></span> Just for you</span>
+    </nav>
+
+    <section class="hero">
+      <p class="eyebrow"><span></span> Today is all about you <span></span></p>
+      <h1 id="birthday-title">Happy Birthday,<br /><em>Chikku</em> <span class="title-heart" aria-hidden="true">♥</span></h1>
+      <p class="subtitle">You are my favourite person in this universe.</p>
+
+      <div class="heart-stage" aria-label="A glowing animated heart">
+        <div class="heart-halo heart-halo-large"></div>
+        <div class="heart-halo heart-halo-small"></div>
+        <div class="main-heart" aria-hidden="true"></div>
+        <span class="heart-spark spark-one" aria-hidden="true">✦</span>
+        <span class="heart-spark spark-two" aria-hidden="true">✦</span>
+        <span class="heart-spark spark-three" aria-hidden="true">·</span>
+      </div>
+
+      <button class="surprise-button" id="surprise-button" type="button">
+        <span>Open Your Surprise</span>
+        <span class="button-heart" aria-hidden="true">♥</span>
+      </button>
+      <p class="hint" id="surprise-hint">There is something special waiting for you</p>
+    </section>
+
+    <section class="celebration" id="celebration" aria-labelledby="celebration-title" aria-hidden="true">
+      <div class="celebration-petals" id="petal-field" aria-hidden="true"></div>
+      <div class="celebration-stars" id="star-field" aria-hidden="true"></div>
+      <button class="back-button" id="back-button" type="button" aria-label="Return to the welcome screen">
+        <span aria-hidden="true">←</span> Back to the beginning
+      </button>
+
+      <div class="celebration-content">
+        <p class="celebration-kicker"><span></span> Chapter two <span></span></p>
+        <h2 id="celebration-title">Today is all about<br /><em>YOU</em>, Chikku!</h2>
+        <p class="celebration-subtitle">A little more magic for the person who makes every day feel like a celebration.</p>
+
+        <div class="cake-scene" aria-label="A birthday cake with glowing candles">
+          <div class="cake-glow" aria-hidden="true"></div>
+          <div class="cake-plate" aria-hidden="true"></div>
+          <div class="cake">
+            <div class="candles" aria-hidden="true">
+              <span class="candle candle-one"><i class="flame"></i></span>
+              <span class="candle candle-two"><i class="flame"></i></span>
+              <span class="candle candle-three"><i class="flame"></i></span>
+            </div>
+            <div class="cake-top"><span class="frosting-drip drip-one"></span><span class="frosting-drip drip-two"></span><span class="frosting-drip drip-three"></span></div>
+            <div class="cake-middle"></div>
+            <div class="cake-bottom"><span class="cake-decoration decoration-one"></span><span class="cake-decoration decoration-two"></span><span class="cake-decoration decoration-three"></span></div>
+          </div>
+          <span class="cake-spark cake-spark-one" aria-hidden="true">✦</span>
+          <span class="cake-spark cake-spark-two" aria-hidden="true">✧</span>
+          <span class="cake-spark cake-spark-three" aria-hidden="true">·</span>
+        </div>
+
+        <button class="wish-button" id="wish-button" type="button">
+          <span>Make a Wish, My Love</span>
+          <span class="button-heart" aria-hidden="true">♥</span>
+        </button>
+        <p class="wish-message" id="wish-message" role="status" aria-live="polite" aria-hidden="true">May all your dreams come true, my love!</p>
+        <button class="chapter-link" id="story-link" type="button">Continue to our love story <span aria-hidden="true">↓</span></button>
+      </div>
+
+      <p class="celebration-footer"><span class="footer-line"></span> With love, always <span class="footer-line"></span></p>
+    </section>
+
+    <section class="story-section journey-section" id="love-story" aria-labelledby="story-title">
+      <div class="section-heading">
+        <p class="section-kicker"><span></span> Step three <span></span></p>
+        <h2 id="story-title">Our Love <em>Story</em> <span class="heading-heart" aria-hidden="true">♥</span></h2>
+        <p>Every chapter brought us a little closer to forever.</p>
+      </div>
+
+      <div class="timeline" id="timeline">
+        <article class="timeline-item reveal-on-scroll">
+          <div class="timeline-marker" aria-hidden="true">♥</div>
+          <div class="milestone-card">
+            <label for="story-date-one">The beginning</label>
+            <input id="story-date-one" class="milestone-date" type="text" value="The day we met" aria-label="First milestone date" />
+            <textarea class="milestone-description" aria-label="First milestone description" rows="2">Somehow, the universe knew I was meant to find you.</textarea>
+          </div>
+        </article>
+        <article class="timeline-item reveal-on-scroll">
+          <div class="timeline-marker" aria-hidden="true">♥</div>
+          <div class="milestone-card">
+            <label for="story-date-two">A favourite memory</label>
+            <input id="story-date-two" class="milestone-date" type="text" value="The first time I knew" aria-label="Second milestone date" />
+            <textarea class="milestone-description" aria-label="Second milestone description" rows="2">You turned ordinary moments into the kind I never want to forget.</textarea>
+          </div>
+        </article>
+        <article class="timeline-item reveal-on-scroll">
+          <div class="timeline-marker" aria-hidden="true">♥</div>
+          <div class="milestone-card">
+            <label for="story-date-three">Right now</label>
+            <input id="story-date-three" class="milestone-date" type="text" value="Today & always" aria-label="Third milestone date" />
+            <textarea class="milestone-description" aria-label="Third milestone description" rows="2">Still choosing you, still cheering for you, still so grateful you are mine.</textarea>
+          </div>
+        </article>
+      </div>
+      <button class="chapter-link" id="memories-link" type="button">Keep our memories close <span aria-hidden="true">↓</span></button>
+    </section>
+
+    <section class="memories-section journey-section" id="memories" aria-labelledby="memories-title">
+      <div class="section-heading">
+        <p class="section-kicker"><span></span> Step four <span></span></p>
+        <h2 id="memories-title">Our Beautiful <em>Memories</em> <span class="heading-heart" aria-hidden="true">♥</span></h2>
+        <p>A little gallery of the moments that feel like home.</p>
+      </div>
+
+      <div class="gallery-toolbar">
+        <label class="upload-button" for="photo-upload"><span aria-hidden="true">＋</span> Add your photos</label>
+        <input id="photo-upload" type="file" accept="image/*" multiple />
+        <span class="upload-note">Choose multiple images from your device</span>
+      </div>
+
+      <div class="photo-grid" id="photo-grid">
+        <button class="photo-card reveal-on-scroll" type="button" data-caption="The kind of smile I could get lost in forever.">
+          <img src="https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&w=900&q=85" alt="Red roses in soft light" loading="lazy" />
+          <span class="photo-caption">The kind of smile I could get lost in forever.</span>
+          <span class="photo-expand" aria-hidden="true">↗</span>
+        </button>
+        <button class="photo-card photo-card-tall reveal-on-scroll" type="button" data-caption="Our little universe, one beautiful moment at a time.">
+          <img src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=900&q=85" alt="Couple holding hands at sunset" loading="lazy" />
+          <span class="photo-caption">Our little universe, one beautiful moment at a time.</span>
+          <span class="photo-expand" aria-hidden="true">↗</span>
+        </button>
+        <button class="photo-card reveal-on-scroll" type="button" data-caption="You make even the quiet days feel golden.">
+          <img src="https://images.unsplash.com/photo-1494774157365-9e04c6720e47?auto=format&fit=crop&w=900&q=85" alt="Warm romantic lights" loading="lazy" />
+          <span class="photo-caption">You make even the quiet days feel golden.</span>
+          <span class="photo-expand" aria-hidden="true">↗</span>
+        </button>
+      </div>
+      <p class="gallery-empty" id="gallery-empty" aria-hidden="true">Your favourite memories will appear here.</p>
+      <div class="lightbox" id="memory-lightbox" role="dialog" aria-modal="true" aria-labelledby="lightbox-caption" aria-hidden="true">
+        <button class="lightbox-close" id="lightbox-close" type="button" aria-label="Close photo viewer">×</button>
+        <button class="lightbox-nav lightbox-prev" id="lightbox-prev" type="button" aria-label="Previous photo">←</button>
+        <figure class="lightbox-figure">
+          <img id="lightbox-image" src="" alt="" />
+          <figcaption id="lightbox-caption"></figcaption>
+        </figure>
+        <button class="lightbox-nav lightbox-next" id="lightbox-next" type="button" aria-label="Next photo">→</button>
+      </div>
+      <button class="chapter-link" id="letter-link" type="button">There is a letter for you <span aria-hidden="true">↓</span></button>
+    </section>
+
+    <section class="letter-section journey-section" id="special-letter" aria-labelledby="letter-title">
+      <div class="section-heading">
+        <p class="section-kicker"><span></span> Step five <span></span></p>
+        <h2 id="letter-title">A Special Love <em>Letter</em> <span class="heading-heart" aria-hidden="true">♥</span></h2>
+        <p>Some feelings are too big for a single birthday wish.</p>
+      </div>
+
+      <div class="letter-experience" id="letter-experience">
+        <div class="letter-hearts" id="letter-hearts" aria-hidden="true"></div>
+        <div class="envelope-wrap">
+          <div class="envelope" aria-hidden="true">
+            <div class="envelope-letter">
+              <p>My dearest Chikku,</p>
+              <p>You are the softest part of my days and the brightest part of my future. Thank you for making life feel more beautiful just by being in it.</p>
+              <p>Whatever comes next, I hope you always know this: I will be here, loving you in every universe.</p>
+              <p class="letter-signoff">With all my heart,<br />Your girl</p>
+            </div>
+            <div class="envelope-back"></div>
+            <div class="envelope-flap"></div>
+            <div class="envelope-front"></div>
+            <div class="letter-seal">♥</div>
+          </div>
+        </div>
+        <button class="letter-button" id="letter-button" type="button"><span>Open My Letter</span> <span class="button-heart" aria-hidden="true">♥</span></button>
+        <p class="letter-hint" id="letter-hint">A few words I hope you carry with you</p>
+        <p class="closing-message" id="closing-message" aria-live="polite">Forever Yours, Chikku's Girl <span aria-hidden="true">♥</span></p>
+      </div>
+    </section>
+
+    <section class="miss-section journey-section" id="open-when" aria-labelledby="open-when-title">
+      <div class="section-heading">
+        <p class="section-kicker"><span></span> Step six <span></span></p>
+        <h2 id="open-when-title">Open When You <em>Miss Me</em> <span class="heading-heart" aria-hidden="true">♥</span></h2>
+        <p>Little pieces of my heart, saved for the moments you need them most.</p>
+      </div>
+      <div class="open-when-grid">
+        <button class="open-when-card" type="button" data-message="Close your eyes and imagine my arms around you. No matter how far apart we are, a part of my heart is always right there beside yours. I miss you too, more than words could ever say." data-title="When you miss me">
+          <span class="open-when-icon">♥</span><strong>Open when you miss me</strong><small>For the miles between us</small><span class="card-arrow">↗</span>
+        </button>
+        <button class="open-when-card" type="button" data-message="You do not have to have it all figured out today. Take one soft breath, then another. You are loved through every difficult moment, and I believe in you completely." data-title="When you feel sad">
+          <span class="open-when-icon">☾</span><strong>Open when you feel sad</strong><small>For the tender days</small><span class="card-arrow">↗</span>
+        </button>
+        <button class="open-when-card" type="button" data-message="Here is your invisible hug: slow, warm, and held for as long as you need. Let yourself rest in the certainty that you never have to carry everything alone." data-title="When you need a hug">
+          <span class="open-when-icon">♡</span><strong>Open when you need a hug</strong><small>For when the world feels heavy</small><span class="card-arrow">↗</span>
+        </button>
+        <button class="open-when-card" type="button" data-message="Remember that you are ridiculously lovable, wonderfully you, and the reason my face hurts from smiling at my phone. Now go make that beautiful smile of yours appear." data-title="When you need to smile">
+          <span class="open-when-icon">✦</span><strong>Open when you need to smile</strong><small>For an instant little lift</small><span class="card-arrow">↗</span>
+        </button>
+      </div>
+      <div class="open-when-reveal" id="open-when-reveal" role="dialog" aria-modal="true" aria-labelledby="open-when-reveal-title" aria-hidden="true">
+        <div class="reveal-card-hearts" aria-hidden="true"></div>
+        <button class="reveal-close" id="open-when-close" type="button" aria-label="Close message">×</button>
+        <span class="reveal-icon">♥</span>
+        <p class="reveal-kicker">A note, just for you</p>
+        <h3 id="open-when-reveal-title"></h3>
+        <p class="reveal-copy" id="open-when-reveal-copy"></p>
+        <span class="reveal-signoff">Always yours</span>
+      </div>
+      <button class="chapter-link" id="music-link" type="button">Choose our soundtrack <span aria-hidden="true">↓</span></button>
+    </section>
+
+    <section class="music-section journey-section" id="our-soundtrack" aria-labelledby="music-title">
+      <div class="section-heading">
+        <p class="section-kicker"><span></span> Step seven <span></span></p>
+        <h2 id="music-title">Our <em>Soundtrack</em> <span class="heading-heart" aria-hidden="true">♥</span></h2>
+        <p>Bring your favourite song here. It will stay with you as you wander through our story.</p>
+      </div>
+      <div class="music-feature-card">
+        <div class="music-disc" aria-hidden="true"><span>♥</span></div>
+        <div class="music-feature-copy"><span class="music-label">Your song</span><strong id="music-feature-name">No song selected yet</strong><span id="music-feature-status">Upload a personal MP3 to begin</span></div>
+        <label class="music-upload" for="music-upload-input"><span aria-hidden="true">＋</span> Choose audio</label>
+        <input id="music-upload-input" type="file" accept="audio/mpeg,audio/mp3,audio/wav,audio/ogg,audio/*" />
+        <audio id="birthday-audio" preload="metadata"></audio>
+        <div class="music-feature-bars" id="music-feature-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      </div>
+      <p class="music-note" id="music-note">Your music is private to this page and never uploaded anywhere.</p>
+      <button class="chapter-link" id="final-link" type="button">Open the final surprise <span aria-hidden="true">↓</span></button>
+    </section>
+
+    <section class="final-section journey-section" id="final-surprise" aria-labelledby="final-title">
+      <div class="final-particles" id="final-particles" aria-hidden="true"></div>
+      <div class="final-fireworks" id="final-fireworks" aria-hidden="true"></div>
+      <div class="section-heading final-heading">
+        <p class="section-kicker"><span></span> Step eight <span></span></p>
+        <h2 id="final-title">One Last <em>Surprise</em> <span class="heading-heart" aria-hidden="true">♥</span></h2>
+        <p>For the person who made every chapter worth writing.</p>
+      </div>
+      <div class="final-stage" id="final-stage">
+        <div class="gift-glow" aria-hidden="true"></div>
+        <div class="gift-box" aria-label="A glowing birthday gift">
+          <div class="gift-lid"></div><div class="gift-body"></div><div class="gift-ribbon-vertical"></div><div class="gift-ribbon-horizontal"></div><div class="gift-bow bow-left"></div><div class="gift-bow bow-right"></div>
+        </div>
+        <button class="final-button" id="final-button" type="button"><span>Open Your Final Surprise</span> <span aria-hidden="true">🎁</span></button>
+        <div class="final-reveal" id="final-reveal" aria-hidden="true">
+          <p class="final-message">You are my favourite chapter, my happiest feeling, and my forever person. Happy Birthday, Chikku! <span aria-hidden="true">♥</span></p>
+          <p class="final-signoff">Forever &amp; Always — Yours <span aria-hidden="true">♥</span></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="secret-section journey-section" id="secret-message" aria-labelledby="secret-title">
+      <div class="section-heading">
+        <p class="section-kicker"><span></span> A hidden chapter <span></span></p>
+        <h2 id="secret-title">A Little Secret Just for You <span class="heading-heart" aria-hidden="true">♥</span></h2>
+        <p>Some things are meant to be unlocked only by the person they belong to.</p>
+      </div>
+      <div class="secret-lock-card">
+        <div class="lock-heart" aria-hidden="true">♥<span class="lock-shackle"></span></div>
+        <p class="secret-prompt">Enter our secret password</p>
+        <form class="secret-form" id="secret-form">
+          <label class="visually-hidden" for="secret-password">Secret password</label>
+          <input id="secret-password" type="password" inputmode="numeric" autocomplete="off" placeholder="four little numbers" maxlength="4" />
+          <button type="submit">Unlock My Heart <span aria-hidden="true">♥</span></button>
+        </form>
+        <p class="secret-feedback" id="secret-feedback" role="status" aria-live="polite"></p>
+        <div class="secret-reveal" id="secret-reveal" aria-hidden="true">
+          <div class="secret-envelope" aria-hidden="true"><span>♥</span></div>
+          <p>You are not just someone special in my life, you are my favourite part of it. No matter how many birthdays come and go, I will always wish to celebrate every little moment with you. I love you, Chikku! <span aria-hidden="true">♥</span></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="scratch-section journey-section" id="scratch-surprise" aria-labelledby="scratch-title">
+      <div class="section-heading">
+        <p class="section-kicker"><span></span> A tiny surprise <span></span></p>
+        <h2 id="scratch-title">Scratch for a Little <em>Love</em> <span class="heading-heart" aria-hidden="true">♥</span></h2>
+        <p>Use your finger or your mouse. There is a birthday secret underneath.</p>
+      </div>
+      <div class="scratch-card-wrap">
+        <div class="scratch-card" id="scratch-card">
+          <div class="scratch-message"><span class="scratch-message-heart">♥</span><p>You make every universe feel like home.</p><small>Happy birthday, my love.</small></div>
+          <canvas id="scratch-canvas" aria-label="Scratch card. Scratch here for a little surprise"></canvas>
+        </div>
+        <div class="scratch-instruction" id="scratch-instruction">Scratch Here for a Little Surprise <span aria-hidden="true">♥</span></div>
+        <p class="scratch-status" id="scratch-status">Reveal the hidden message with a little love</p>
+      </div>
+      <button class="chapter-link" id="coupon-link" type="button">Choose a love coupon <span aria-hidden="true">↓</span></button>
+    </section>
+
+    <section class="coupon-section journey-section" id="love-coupons" aria-labelledby="coupon-title">
+      <div class="section-heading">
+        <p class="section-kicker"><span></span> Little promises <span></span></p>
+        <h2 id="coupon-title">Love <em>Coupons</em> <span class="heading-heart" aria-hidden="true">♥</span></h2>
+        <p>Six tiny promises, redeemable whenever your heart asks for one.</p>
+      </div>
+      <div class="coupon-grid">
+        <article class="coupon-card"><span class="coupon-number">01</span><span class="coupon-icon">🤗</span><h3>One Tight Hug</h3><p>Valid whenever the world feels too loud.</p><button class="redeem-button" type="button">Redeem <span aria-hidden="true">♥</span></button><span class="coupon-stamp">LOVE PASS</span></article>
+        <article class="coupon-card"><span class="coupon-number">02</span><span class="coupon-icon">💋</span><h3>Unlimited Kisses</h3><p>No expiry date. No limit. No questions.</p><button class="redeem-button" type="button">Redeem <span aria-hidden="true">♥</span></button><span class="coupon-stamp">LOVE PASS</span></article>
+        <article class="coupon-card"><span class="coupon-number">03</span><span class="coupon-icon">🌹</span><h3>One Special Date Night</h3><p>You choose the place, I bring the love.</p><button class="redeem-button" type="button">Redeem <span aria-hidden="true">♥</span></button><span class="coupon-stamp">LOVE PASS</span></article>
+        <article class="coupon-card"><span class="coupon-number">04</span><span class="coupon-icon">🍫</span><h3>Your Favourite Treat</h3><p>A sweet little yes to your sweetest craving.</p><button class="redeem-button" type="button">Redeem <span aria-hidden="true">♥</span></button><span class="coupon-stamp">LOVE PASS</span></article>
+        <article class="coupon-card"><span class="coupon-number">05</span><span class="coupon-icon">✨</span><h3>One Wish Granted</h3><p>Tell me what your heart has been hoping for.</p><button class="redeem-button" type="button">Redeem <span aria-hidden="true">♥</span></button><span class="coupon-stamp">LOVE PASS</span></article>
+        <article class="coupon-card"><span class="coupon-number">06</span><span class="coupon-icon">♥</span><h3>Unlimited Love Forever</h3><p>The rarest coupon, and the most certain promise.</p><button class="redeem-button" type="button">Redeem <span aria-hidden="true">♥</span></button><span class="coupon-stamp">LOVE PASS</span></article>
+      </div>
+      <p class="coupon-confirmation" id="coupon-confirmation" role="status" aria-live="polite"></p>
+    </section>
+
+    <section class="grand-finale journey-section" id="grand-finale" aria-labelledby="grand-finale-title">
+      <div class="grand-finale-fireworks" id="grand-finale-fireworks" aria-hidden="true"></div>
+      <div class="grand-finale-petals" id="grand-finale-petals" aria-hidden="true"></div>
+      <div class="grand-finale-sparkles" id="grand-finale-sparkles" aria-hidden="true"></div>
+      <div class="grand-finale-content">
+        <p class="section-kicker"><span></span> The grand finale <span></span></p>
+        <h2 id="grand-finale-title">For my favourite <em>person</em> <span class="heading-heart" aria-hidden="true">♥</span></h2>
+        <p class="grand-finale-typing" id="grand-finale-typing" aria-live="polite"></p>
+        <p class="grand-finale-message" id="grand-finale-message">If I had to choose again, in every lifetime, I'd still choose you. Happy Birthday, my Chikku! <span aria-hidden="true">♥</span></p>
+        <button class="grand-finale-button" id="grand-finale-button" type="button"><span>Forever Yours</span> <span aria-hidden="true">♥</span></button>
+        <p class="grand-finale-signoff" id="grand-finale-signoff" aria-hidden="true">Forever &amp; Always — Yours <span aria-hidden="true">♥</span></p>
+      </div>
+    </section>
+
+    <aside class="music-player" id="music-player" aria-label="Romantic background music player">
+      <div class="music-player-icon" aria-hidden="true">♫</div>
+      <div class="music-player-info"><strong id="music-player-name">No song selected</strong><span id="music-player-status">Upload a song to play</span></div>
+      <div class="music-controls"><button id="music-play" type="button" aria-label="Play music" disabled>▶</button><button id="music-pause" type="button" aria-label="Pause music" disabled>Ⅱ</button></div>
+      <label class="volume-control" for="music-volume"><span aria-hidden="true">⌁</span><input id="music-volume" type="range" min="0" max="1" value="0.7" step="0.05" aria-label="Music volume" /></label>
+      <div class="music-visualizer" id="music-visualizer" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+    </aside>
+
+    <footer class="footer-note">
+      <span class="footer-line"></span>
+      <span>Made with all my heart</span>
+      <span class="footer-line"></span>
+    </footer>
+
+    <div class="surprise-message" id="surprise-message" role="status" aria-live="polite" aria-hidden="true">
+      <button class="close-button" id="close-button" type="button" aria-label="Close surprise">×</button>
+      <span class="message-kicker">A little secret</span>
+      <p>Every universe would be brighter with you in it.</p>
+      <span class="message-signoff">Happy birthday, my love.</span>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
